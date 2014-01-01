@@ -1,6 +1,6 @@
 //
 //  TestViewController.m
-//  CardTilt
+//  
 //
 //  Created by Amro Munajjed on 12/20/13.
 
@@ -30,9 +30,9 @@
     NSLog(@"viewdidload");
     self.responseData = [NSMutableData data];
 
-    NSURLRequest *request = [NSURLRequest requestWithURL:
-                             [NSURL URLWithString:@"http://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=84f9cf09bcdb6d792b986bf4399e8cc9&per_page=10&format=json&nojsoncallback=1&auth_token=72157638855819046-eea91007b5002ed5&api_sig=177e7c0011d80c816a057c71c271ab3d"]];
-    [[NSURLConnection alloc] initWithRequest:request delegate:self];
+//    NSURLRequest *request = [NSURLRequest requestWithURL:
+//                             [NSURL URLWithString:@"http://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=84f9cf09bcdb6d792b986bf4399e8cc9&per_page=10&format=json&nojsoncallback=1&auth_token=72157638855819046-eea91007b5002ed5&api_sig=177e7c0011d80c816a057c71c271ab3d"]];
+//    [[NSURLConnection alloc] initWithRequest:request delegate:self];
 
 }
 
@@ -47,7 +47,7 @@
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
     NSLog(@"didFailWithError");
-    NSLog([NSString stringWithFormat:@"Connection failed: %@", [error description]]);
+  //  NSLog([NSString stringWithFormat:@"Connection failed: %@", [error description]]);
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
@@ -77,11 +77,11 @@
     
     for (NSDictionary *photo in photos) {
         // 3.a Get title for e/ photo
-       NSString *title = [photo objectForKey:@"title"];
+//NSString *title = [photo objectForKey:@"title"];
        // [photoNames addObject:(title.length > 0 ? title : @"Untitled")];
         // 3.b Construct URL for e/ photo.
         NSString *photoURLString = [NSString stringWithFormat:@"http://farm%@.static.flickr.com/%@/%@_%@_m.jpg", [photo objectForKey:@"farm"], [photo objectForKey:@"server"], [photo objectForKey:@"id"], [photo objectForKey:@"secret"]];
-        NSLog((@"%@", photoURLString));
+       // NSLog((@"%@", photoURLString));
         [photoURLs addObject:[NSURL URLWithString:photoURLString]];
     }
     
@@ -89,7 +89,7 @@
    // NSDictionary *DataDict = photosArray[@"photo"];
     // NSArray *photosArray1 = photosArray[@"photo"];
   //  NSDictionary *DataDict = [photosArray objectAtIndex:3];
-    NSString * trst = @"fasdf";
+  //  NSString * trst = @"fasdf";
     // NSArray *DataDict = photosArray[3][@"photo"];
 //    
 //    NSString * farm = photosArray[0][@"farm"];

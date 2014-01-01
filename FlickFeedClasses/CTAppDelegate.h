@@ -1,6 +1,6 @@
 //
 //  CTAppDelegate.h
-//  CardTilt
+//  
 //
 
 #import <UIKit/UIKit.h>

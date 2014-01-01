@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8225D36318657B7700D49530 /* 2179de8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8225D36218657B7700D49530 /* 2179de8.jpg */; };
-		8225D36518657B9D00D49530 /* c6e979f6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8225D36418657B9D00D49530 /* c6e979f6.jpg */; };
 		8225D370186583D800D49530 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8225D36F186583D800D49530 /* MessageUI.framework */; };
 		8225D374186583EF00D49530 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8225D373186583EF00D49530 /* AssetsLibrary.framework */; };
 		8225D3D31865AADC00D49530 /* MWCaptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8225D37B1865AADB00D49530 /* MWCaptionView.m */; };
@@ -51,7 +49,6 @@
 		8225D3F81865AADC00D49530 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 8225D3CE1865AADC00D49530 /* UIImage+WebP.m */; };
 		8225D3F91865AADC00D49530 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8225D3D01865AADC00D49530 /* UIImageView+WebCache.m */; };
 		8225D3FA1865AADC00D49530 /* MWPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8225D3D21865AADC00D49530 /* MWPhotoBrowser.bundle */; };
-		8225D3FC1865BF5100D49530 /* 8285_640x1136.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8225D3FB1865BF5100D49530 /* 8285_640x1136.jpg */; };
 		8225D3FF1865FAF500D49530 /* LocalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8225D3FE1865FAF500D49530 /* LocalViewController.m */; };
 		8225D404186603D500D49530 /* local@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8225D400186603D500D49530 /* local@2x.png */; };
 		8225D405186603D500D49530 /* local.png in Resources */ = {isa = PBXBuildFile; fileRef = 8225D401186603D500D49530 /* local.png */; };
@@ -60,9 +57,6 @@
 		824A7CC5186F30BF008A7E54 /* UploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 824A7CC4186F30BF008A7E54 /* UploadViewController.m */; };
 		824A7CC8186F62DC008A7E54 /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 824A7CC7186F62DC008A7E54 /* CustomTabBarController.m */; };
 		82600AA31864EDCC002852DF /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82600AA21864EDCC002852DF /* ImageIO.framework */; };
-		82600AA7186505CD002852DF /* faces_2SRMy8Ii.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82600AA4186505CD002852DF /* faces_2SRMy8Ii.jpg */; };
-		82600AA8186505CD002852DF /* holywallpa_6paQy6YP.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82600AA5186505CD002852DF /* holywallpa_6paQy6YP.jpg */; };
-		82600AA9186505CD002852DF /* paints-ran_og8m1sQ3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82600AA6186505CD002852DF /* paints-ran_og8m1sQ3.jpg */; };
 		82BA7F2D1864BD490096E98B /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BA7F2C1864BD490096E98B /* TestViewController.m */; };
 		82C37FE01872200A003DB668 /* CommentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C37FDF1872200A003DB668 /* CommentsViewController.m */; };
 		82C37FE3187220D0003DB668 /* Pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C37FE1187220D0003DB668 /* Pattern.png */; };
@@ -342,12 +336,9 @@
 		D392E1F017BE9500002F87D9 /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = D392E1EB17BE9500002F87D9 /* fb.png */; };
 		D392E1F117BE9500002F87D9 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = D392E1EC17BE9500002F87D9 /* twitter.png */; };
 		D392E1F317BE9500002F87D9 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = D392E1EE17BE9500002F87D9 /* background.png */; };
-		D392E1F417BE9500002F87D9 /* TeamMembers.json in Resources */ = {isa = PBXBuildFile; fileRef = D392E1EF17BE9500002F87D9 /* TeamMembers.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8225D36218657B7700D49530 /* 2179de8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2179de8.jpg; sourceTree = "<group>"; };
-		8225D36418657B9D00D49530 /* c6e979f6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c6e979f6.jpg; sourceTree = "<group>"; };
 		8225D36F186583D800D49530 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		8225D371186583E400D49530 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
 		8225D373186583EF00D49530 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
@@ -434,7 +425,6 @@
 		8225D3D01865AADC00D49530 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		8225D3D11865AADC00D49530 /* MWPhotoBrowser-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MWPhotoBrowser-Prefix.pch"; sourceTree = "<group>"; };
 		8225D3D21865AADC00D49530 /* MWPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MWPhotoBrowser.bundle; sourceTree = "<group>"; };
-		8225D3FB1865BF5100D49530 /* 8285_640x1136.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8285_640x1136.jpg; sourceTree = "<group>"; };
 		8225D3FD1865FAF500D49530 /* LocalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalViewController.h; sourceTree = "<group>"; };
 		8225D3FE1865FAF500D49530 /* LocalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalViewController.m; sourceTree = "<group>"; };
 		8225D400186603D500D49530 /* local@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "local@2x.png"; sourceTree = "<group>"; };
@@ -446,9 +436,6 @@
 		824A7CC6186F62DC008A7E54 /* CustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarController.h; sourceTree = "<group>"; };
 		824A7CC7186F62DC008A7E54 /* CustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarController.m; sourceTree = "<group>"; };
 		82600AA21864EDCC002852DF /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
-		82600AA4186505CD002852DF /* faces_2SRMy8Ii.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = faces_2SRMy8Ii.jpg; sourceTree = "<group>"; };
-		82600AA5186505CD002852DF /* holywallpa_6paQy6YP.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = holywallpa_6paQy6YP.jpg; sourceTree = "<group>"; };
-		82600AA6186505CD002852DF /* paints-ran_og8m1sQ3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "paints-ran_og8m1sQ3.jpg"; sourceTree = "<group>"; };
 		82BA7F2B1864BD490096E98B /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		82BA7F2C1864BD490096E98B /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		82C37FDE1872200A003DB668 /* CommentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentsViewController.h; sourceTree = "<group>"; };
@@ -972,7 +959,6 @@
 		D392E1EB17BE9500002F87D9 /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb.png; sourceTree = "<group>"; };
 		D392E1EC17BE9500002F87D9 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
 		D392E1EE17BE9500002F87D9 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
-		D392E1EF17BE9500002F87D9 /* TeamMembers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TeamMembers.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1982,7 +1968,7 @@
 				82EE8D18186A01D100BEDF89 /* Classes */,
 				8225D3781865AADB00D49530 /* MWPhotoBrowser */,
 				D3847F4717D032630029132A /* QuartzCore.framework */,
-				D392E1C017BDAE90002F87D9 /* MainClasses */,
+				D392E1C017BDAE90002F87D9 /* FlickFeedClasses */,
 				D392E1B917BDAE90002F87D9 /* Frameworks */,
 				D392E1B817BDAE90002F87D9 /* Products */,
 			);
@@ -2011,7 +1997,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D392E1C017BDAE90002F87D9 /* MainClasses */ = {
+		D392E1C017BDAE90002F87D9 /* FlickFeedClasses */ = {
 			isa = PBXGroup;
 			children = (
 				D392E1C917BDAE90002F87D9 /* CTAppDelegate.h */,
@@ -2049,8 +2035,7 @@
 				82BA7F2C1864BD490096E98B /* TestViewController.m */,
 				D392E1C117BDAE90002F87D9 /* Supporting Files */,
 			);
-			name = MainClasses;
-			path = CardTilt;
+			path = FlickFeedClasses;
 			sourceTree = "<group>";
 		};
 		D392E1C117BDAE90002F87D9 /* Supporting Files */ = {
@@ -2087,16 +2072,9 @@
 				8225D401186603D500D49530 /* local.png */,
 				8225D402186603D500D49530 /* world.png */,
 				8225D403186603D500D49530 /* world@2x.png */,
-				8225D3FB1865BF5100D49530 /* 8285_640x1136.jpg */,
-				8225D36418657B9D00D49530 /* c6e979f6.jpg */,
-				8225D36218657B7700D49530 /* 2179de8.jpg */,
-				82600AA4186505CD002852DF /* faces_2SRMy8Ii.jpg */,
-				82600AA5186505CD002852DF /* holywallpa_6paQy6YP.jpg */,
-				82600AA6186505CD002852DF /* paints-ran_og8m1sQ3.jpg */,
 				D392E1EB17BE9500002F87D9 /* fb.png */,
 				D392E1EC17BE9500002F87D9 /* twitter.png */,
 				D392E1EE17BE9500002F87D9 /* background.png */,
-				D392E1EF17BE9500002F87D9 /* TeamMembers.json */,
 				D392E1C217BDAE90002F87D9 /* FlickFeed-Info.plist */,
 				D392E1C317BDAE90002F87D9 /* InfoPlist.strings */,
 				D392E1C617BDAE90002F87D9 /* main.m */,
@@ -2169,7 +2147,6 @@
 				82FF83A91874995C005F5167 /* Logo_57@2x (1).png in Resources */,
 				D392E1C517BDAE90002F87D9 /* InfoPlist.strings in Resources */,
 				82FF83A81874995B005F5167 /* logo_120.png in Resources */,
-				8225D36518657B9D00D49530 /* c6e979f6.jpg in Resources */,
 				82DC39271872187100F1DEA0 /* talk_chat copwwy_w.png in Resources */,
 				D392E1CD17BDAE90002F87D9 /* Default.png in Resources */,
 				D392E1CF17BDAE90002F87D9 /* Default@2x.png in Resources */,
@@ -2177,20 +2154,17 @@
 				8225D405186603D500D49530 /* local.png in Resources */,
 				82FF839518737BA4005F5167 /* upload_30.png in Resources */,
 				D392E1D417BDAE90002F87D9 /* MainStoryboard.storyboard in Resources */,
-				8225D3FC1865BF5100D49530 /* 8285_640x1136.jpg in Resources */,
 				82DC392418720DBA00F1DEA0 /* Old.png in Resources */,
 				D392E1F017BE9500002F87D9 /* fb.png in Resources */,
 				82DC39171872078200F1DEA0 /* talk_chat copy.png in Resources */,
 				8225D404186603D500D49530 /* local@2x.png in Resources */,
 				82FF839C187382BC005F5167 /* Upload_big.png in Resources */,
-				82600AA9186505CD002852DF /* paints-ran_og8m1sQ3.jpg in Resources */,
 				82C37FE3187220D0003DB668 /* Pattern.png in Resources */,
 				D392E1F117BE9500002F87D9 /* twitter.png in Resources */,
 				82DC391F18720A5B00F1DEA0 /* Lights-In-The-Glass-1136x640.jpg in Resources */,
 				8225D3FA1865AADC00D49530 /* MWPhotoBrowser.bundle in Resources */,
 				82DC391B187209C700F1DEA0 /* talk_chat copwwy.png in Resources */,
 				D392E1F317BE9500002F87D9 /* background.png in Resources */,
-				D392E1F417BE9500002F87D9 /* TeamMembers.json in Resources */,
 				82DC391E18720A5B00F1DEA0 /* Colorful-Digital-Painting-1136x640.jpg in Resources */,
 				82DC392518720DBA00F1DEA0 /* Untitled-1.png in Resources */,
 				82FF83A018738853005F5167 /* gear@2x.png in Resources */,
@@ -2201,7 +2175,6 @@
 				82FF839A18737DE3005F5167 /* settings_30@2x.png in Resources */,
 				82FBF7BA186DEC9F007EBBF2 /* flickfeed_Splash_Screen.png in Resources */,
 				82FF839618737BA4005F5167 /* upload_30@2x.png in Resources */,
-				8225D36318657B7700D49530 /* 2179de8.jpg in Resources */,
 				82C37FE4187220D0003DB668 /* Patterbw.png in Resources */,
 				82FF83AA1874995C005F5167 /* Logo_57 (3).png in Resources */,
 				82FF839218737BA4005F5167 /* my_30@2x.png in Resources */,
@@ -2210,8 +2183,6 @@
 				8225D407186603D500D49530 /* world@2x.png in Resources */,
 				82FF839118737BA4005F5167 /* my_30.png in Resources */,
 				8225D3EB1865AADC00D49530 /* LICENSE in Resources */,
-				82600AA7186505CD002852DF /* faces_2SRMy8Ii.jpg in Resources */,
-				82600AA8186505CD002852DF /* holywallpa_6paQy6YP.jpg in Resources */,
 				82FF838F18737BA4005F5167 /* globe_30.png in Resources */,
 				82DC392318720DBA00F1DEA0 /* Colorful.png in Resources */,
 				82FF839018737BA4005F5167 /* globe_30@2x.png in Resources */,
@@ -2593,8 +2564,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CardTilt/FlickFeed-Prefix.pch";
-				INFOPLIST_FILE = "CardTilt/FlickFeed-Info.plist";
+				GCC_PREFIX_HEADER = "FlickFeedClasses/FlickFeed-Prefix.pch";
+				INFOPLIST_FILE = "FlickFeedClasses/FlickFeed-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = FlickFeed;
@@ -2611,8 +2582,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CardTilt/FlickFeed-Prefix.pch";
-				INFOPLIST_FILE = "CardTilt/FlickFeed-Info.plist";
+				GCC_PREFIX_HEADER = "FlickFeedClasses/FlickFeed-Prefix.pch";
+				INFOPLIST_FILE = "FlickFeedClasses/FlickFeed-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = FlickFeed;

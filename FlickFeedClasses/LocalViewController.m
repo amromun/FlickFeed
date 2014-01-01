@@ -1,7 +1,6 @@
 //
 //  LocalViewController.m
-//  CardTilt
-//
+//  //
 //  Created by Amro Munajjed on 12/21/13.
 
 //

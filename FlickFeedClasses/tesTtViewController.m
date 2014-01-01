@@ -179,7 +179,7 @@
                 switch (error.code) {
                     case FKFlickrPhotosCommentsAddCommentError_UserNotLoggedInOrInsufficientPermissions:
                     {
-                        NSString *h = error.localizedFailureReason;
+                       
                         break;}
                     default:
                         break;
@@ -223,14 +223,14 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
+
     // Return the number of sections.
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
+
     // Return the number of rows in the section.
     return commentArr.count;
 }

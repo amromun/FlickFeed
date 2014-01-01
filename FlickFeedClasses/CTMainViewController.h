@@ -1,8 +1,8 @@
 //
 //  CTMainViewController.h
-//  CardTilt
 //
-//  Created by Brian Broom on 8/16/13.
+//
+// 
 
 //
 

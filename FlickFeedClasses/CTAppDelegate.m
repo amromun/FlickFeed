@@ -1,6 +1,6 @@
 //
 //  CTAppDelegate.m
-//  CardTilt
+//  
 
 
 #import "CTAppDelegate.h"
