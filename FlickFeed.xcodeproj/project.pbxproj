@@ -1982,7 +1982,7 @@
 				82EE8D18186A01D100BEDF89 /* Classes */,
 				8225D3781865AADB00D49530 /* MWPhotoBrowser */,
 				D3847F4717D032630029132A /* QuartzCore.framework */,
-				D392E1C017BDAE90002F87D9 /* CardTilt */,
+				D392E1C017BDAE90002F87D9 /* MainClasses */,
 				D392E1B917BDAE90002F87D9 /* Frameworks */,
 				D392E1B817BDAE90002F87D9 /* Products */,
 			);
@@ -2011,7 +2011,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D392E1C017BDAE90002F87D9 /* CardTilt */ = {
+		D392E1C017BDAE90002F87D9 /* MainClasses */ = {
 			isa = PBXGroup;
 			children = (
 				D392E1C917BDAE90002F87D9 /* CTAppDelegate.h */,
@@ -2049,6 +2049,7 @@
 				82BA7F2C1864BD490096E98B /* TestViewController.m */,
 				D392E1C117BDAE90002F87D9 /* Supporting Files */,
 			);
+			name = MainClasses;
 			path = CardTilt;
 			sourceTree = "<group>";
 		};

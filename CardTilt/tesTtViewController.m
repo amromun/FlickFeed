@@ -198,8 +198,7 @@
 
 - (void)popupTextView:(YIPopupTextView *)textView willDismissWithText:(NSString *)text cancelled:(BOOL)cancelled
 {
-   // NSLog(@"will dismiss: cancelled=%d",cancelled);
-   // self.textView.text = text;
+   
    
     if(!cancelled){
         [self sendComment:text];
