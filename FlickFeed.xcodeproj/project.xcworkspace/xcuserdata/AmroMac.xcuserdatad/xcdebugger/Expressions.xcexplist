@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[tesTtViewController tableView:numberOfRowsInSection:]:tesTtViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[adict valueForKey:@&quot;username&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "commentArr.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[tesTtViewController tableView:cellForRowAtIndexPath:]:tesTtViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[adict valueForKey:@&quot;username&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CTCardCell setupWithDictionary:]:CTCardCell.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.titleLabel.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__34-[tesTtViewController viewDidLoad]_block_invoke_2:tesTtViewController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
